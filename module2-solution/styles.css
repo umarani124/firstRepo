@@ -1,0 +1,256 @@
+
+body{
+    
+}
+*{
+    box-sizing: border-box;
+    margin:5px;
+    padding:5px;
+}
+
+div{
+    
+    height: 100px;
+    width: 100%;
+    margin:5px;
+    margin:auto;
+    color:2 px solid black;
+    border: 2px solid black;
+}
+@media(min-width:992px){
+    
+     section{
+        margin-left:450px;
+        color: black;
+        font-style:bold;
+        font-size: xx-large;
+        
+    }
+.first{
+    padding-top: 30px;
+    background-color:gray;
+    position: absolute;
+    height:160px;
+    width:30%;
+    margin-left: auto;
+        margin-right: auto;
+}
+    
+.second{
+    padding-top: 30px;
+    background-color: gray;
+    position: absolute;
+    left: 35%;
+    width:30%;
+    height:160px;
+    margin-left: 140px;
+    margin-left: auto;
+        margin-right: auto;
+
+}
+.third{
+    padding-top: 30px;
+    background-color: gray;
+    position: absolute;
+    left: 68%;
+    width:30%;
+    height:160px;
+    margin-left:255px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.chicken{
+
+    width: 22%;
+    height: 30px;
+    background-color:lightcoral;
+    position: absolute;
+    left:78.6%;
+    bottom:128px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.beef{
+    
+    width: 19%;
+    height: 30px;
+    background-color:crimson;
+    position: absolute;
+    left:81.5%;
+    bottom:128px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.sushi{
+    
+    width: 19%;
+    height: 30px;
+    background-color:darkolivegreen;
+    position: absolute;
+    left:81.5%;
+    bottom:128px;
+    margin-left: auto;
+        margin-right: auto;
+}
+}
+
+@media (min-width: 768px ) and (max-width:991px)
+{section{
+    margin-left:200px;
+    color: black;
+    font-style:bold;
+    font-size: xx-large;
+}
+    
+    .first{
+        padding-top: 20px;
+    background-color:gray;
+    position: absolute;
+    width:29.7%;
+    left:2.5%;
+    height:200px;
+    margin-left: auto;
+        margin-right: auto;
+    
+}
+.second{
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color:gray;
+    position: absolute;
+    left: 35.2%;
+    width:29.7%;
+    height:200px;
+    margin-left: auto;
+     margin-right: auto;
+    
+    
+}
+    .third{
+        margin-top: 20px;
+        padding-top: 30px;
+        background-color:gray;
+        position: absolute;
+        top:280px;
+      left :2.5%;
+        float: left;
+        width:62.4%;
+        height:130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .chicken{
+
+        width: 26.5%;
+        height: 30px;
+        background-color:lightcoral;
+        position: absolute;
+        left:74.3%;
+        bottom:168px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .beef{
+    
+        width: 18.9%;
+        height: 30px;
+        background-color:crimson;
+        position: absolute;
+        left:82%;
+        bottom:168px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sushi{
+    
+        width: 11.9%;
+        height: 30px;
+        background-color:darkolivegreen;
+        position: absolute;
+        left:88.5%;
+        bottom:98px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:767px)
+{
+    section{
+        margin-left:150px;
+        color: black;
+        font-style: solid bold;
+        font-size: xx-large;
+    }
+    .chicken{
+        
+        width: 15.9%;
+        height: 30px;
+        background-color:lightcoral;
+        position: absolute;
+        bottom:118px;
+        left:84.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .beef{
+    
+        width: 15.9%;
+        height: 30px;
+        background-color:crimson;
+        position: absolute;
+        bottom:118px;
+        left:84.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sushi{
+    
+        width: 15.9%;
+        height: 30px;
+        background-color:darkolivegreen;
+        position: absolute;
+        bottom:118px;
+        left:84.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first{
+        margin-top: 10px;
+        padding-top: 20px;
+        background-color:gray;
+        position: absolute;
+        width:80%;
+        top:100px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+    }
+    .second{
+        margin-top:20px;
+        padding-top: 20px;
+        background-color: gray;
+    position: absolute;
+        top:250px;
+        float: left;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+    }
+    
+    .third{
+        margin-top:30px;
+        padding-top: 20px;
+        background-color:gray;
+        position: absolute;
+        top:400px;
+        float: left;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+    }
+    
+    
+    
+}
